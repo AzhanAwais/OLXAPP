@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+:root{
+    --color-h5:grey;
+    --color-h2:black;
+    --color-header:#F7F8F8;
+    --color-span:#002F34;
+    --color-white:white;
+}
+
+
+.container-10{
+    background-color:#002F34;
+    padding: 20px 20px 10px 20px;
+    position: relative;
+    bottom: 0;
+}
+
+.container-10 .country{
+    font-weight: 600;
+}
+
+.container-10 h5{
+    font-size: 12px;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.container-10 .div-title{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,26 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+:root{
+    --color-h5:grey;
+    --color-h2:black;
+    --color-header:#F7F8F8;
+    --color-span:#002F34;
+    --color-white:white;
+}
+
+.container-5 .title h4,
+.container-6 .title h4{
+    color: var(--color-h2);
+    font-weight: 400;
+    font-size: 1.4em;
+}

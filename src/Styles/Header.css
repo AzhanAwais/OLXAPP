@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+:root{
+    --color-h5:grey;
+    --color-h2:black;
+    --color-header:#F7F8F8;
+    --color-span:#002F34;
+    --color-white:white;
+}
+
+.container-1{
+    background-color: var(--color-header);
+    padding: 10px;
+}
+
+.container-1 .location{
+    padding: 10px;
+    background-color: white;
+    display: block;
+    border: 2px solid black;
+    position: relative;
+}
+
+.container-1 .img-div{
+    width: 100%;
+    height: auto;
+}
+
+.container-1 .img-div img{
+    width: 80%;
+    height: 80%;
+}
+
+.container-1 .location input,
+.container-1 .location-2 input{
+    outline:  none;
+    border: none;
+    background-color: transparent;
+    font-size: 14px;
+    margin-left: 10px;
+    width: 80%;
+}
+
+.container-1 .bg-search{
+    background-color:  var(--color-span);
+    padding: 10px 15px;
+    margin-left: 10px;
+    height: 100%;
+    position: absolute;
+    right: -1px;
+    top: 0;
+    bottom: 0;
+}
+
+.container-1 .fa-chevron-down{
+    transition: 0.3s linear;
+}
+
+.container-1 .fa-search.search{
+    color: var(--color-white);
+}
+
+.container-1 .location-2{
+    padding: 10px 0px 10px 10px;
+    background-color: white;
+    border: 2px solid black;
+    position: relative;
+}
+
+.container-1 .down-chevron{
+    position: absolute;
+    right: 15px;
+}
+
+.container-1 .login{
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.container-1 .login:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.container-1 .sell{
+    margin-left: -20px;
+}
+
+.container-1 .sell a{
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 3px solid gold;
+    font-weight: 600;
+}
+
+.container-1 .dropdown-menu{
+    margin-top: 12px;
+    width: 310px;
+    margin-left: -30px;
+}
+
+.container-1 .dropdown-menu .dropdown-item.loc{
+    font-size: 14px;
+    font-weight: 300;
+    color: gray;
+}
+
+.fa-map-marker{
+    font-size: 1.2em;
+}
+
+.container-1 .dropdown-item span{
+    font-weight: 300;
+    color: rgb(36, 36, 36);
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 768px){
+    .container-1 .img-div img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .container-1 .sell{
+        margin-left: 5px;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .container-1{
+        padding: 20px;
+    }
+
+    .container-1 .login{
+        margin-right: 50px;
+    }
+
+    .container-1 .control-btn{
+        float: right;
+    }
+}
+
