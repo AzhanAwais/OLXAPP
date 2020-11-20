@@ -27,47 +27,47 @@ class Navbar extends Component{
                                     item5="Buses, Vans & Trucks" item6="Spare Parts" item7="Car Assecories"
                                 />
     
-                                <NavList heading="Vehicle" item1="Tractors and Trailer" item2="Boats" item3="Other Vehicles" item4="Rikshaw & Chinchi" 
+                                <NavList heading="Mobile" item1="Tractors and Trailer" item2="Boats" item3="Other Vehicles" item4="Rikshaw & Chinchi" 
                                     item5="Buses, Vans & Trucks" item6="Spare Parts" item7="Car Assecories"
                                 />
     
-                                <NavList heading="Vehicle" item1="Tractors and Trailer" item2="Boats" item3="Other Vehicles" item4="Rikshaw & Chinchi" 
+                                <NavList heading="Electronic" item1="Tractors and Trailer" item2="Boats" item3="Other Vehicles" item4="Rikshaw & Chinchi" 
                                     item5="Buses, Vans & Trucks" item6="Spare Parts" item7="Car Assecories"
                                 />
     
-                                <NavList heading="Vehicle" item1="Tractors and Trailer" item2="Boats" item3="Other Vehicles" item4="Rikshaw & Chinchi" 
+                                <NavList heading="Animal" item1="Tractors and Trailer" item2="Boats" item3="Other Vehicles" item4="Rikshaw & Chinchi" 
                                     item5="Buses, Vans & Trucks" item6="Spare Parts" item7="Car Assecories"
                                 />
     
-                                <NavList heading="Vehicle" item1="Tractors and Trailer" item2="Boats" item3="Other Vehicles" item4="Rikshaw & Chinchi" 
+                                <NavList heading="Property for Rent" item1="Tractors and Trailer" item2="Boats" item3="Other Vehicles" item4="Rikshaw & Chinchi" 
                                     item5="Buses, Vans & Trucks" item6="Spare Parts" item7="Car Assecories"
                                 />
        
-                                <NavList heading="Vehicle" item1="Tractors and Trailer" item2="Boats" item3="Other Vehicles" item4="Rikshaw & Chinchi" 
+                                <NavList heading="Books,Sports & Hobbies" item1="Tractors and Trailer" item2="Boats" item3="Other Vehicles" item4="Rikshaw & Chinchi" 
                                     item5="Buses, Vans & Trucks" item6="Spare Parts" item7="Car Assecories"
                                 />
         
-                                <NavList heading="Vehicle" item1="Tractors and Trailer" item2="Boats" item3="Other Vehicles" item4="Rikshaw & Chinchi" 
+                                <NavList heading="Furniture & Home Decor" item1="Tractors and Trailer" item2="Boats" item3="Other Vehicles" item4="Rikshaw & Chinchi" 
                                     item5="Buses, Vans & Trucks" item6="Spare Parts" item7="Car Assecories"
                                 />
 
-                                <NavList heading="Vehicle" item1="Tractors and Trailer" item2="Boats" item3="Other Vehicles" item4="Rikshaw & Chinchi" 
+                                <NavList heading="Electronics & Home Appliances" item1="Tractors and Trailer" item2="Boats" item3="Other Vehicles" item4="Rikshaw & Chinchi" 
                                     item5="Buses, Vans & Trucks" item6="Spare Parts" item7="Car Assecories"
                                 />
       
-                                <NavList heading="Vehicle" item1="Tractors and Trailer" item2="Boats" item3="Other Vehicles" item4="Rikshaw & Chinchi" 
+                                <NavList heading="Fashion & Beauty" item1="Tractors and Trailer" item2="Boats" item3="Other Vehicles" item4="Rikshaw & Chinchi" 
                                     item5="Buses, Vans & Trucks" item6="Spare Parts" item7="Car Assecories"
                                 />
        
-                                <NavList heading="Vehicle" item1="Tractors and Trailer" item2="Boats" item3="Other Vehicles" item4="Rikshaw & Chinchi" 
+                                <NavList heading="Services" item1="Tractors and Trailer" item2="Boats" item3="Other Vehicles" item4="Rikshaw & Chinchi" 
                                     item5="Buses, Vans & Trucks" item6="Spare Parts" item7="Car Assecories"
                                 />
         
-                                <NavList heading="Vehicle" item1="Tractors and Trailer" item2="Boats" item3="Other Vehicles" item4="Rikshaw & Chinchi" 
+                                <NavList heading="Property for Sale" item1="Tractors and Trailer" item2="Boats" item3="Other Vehicles" item4="Rikshaw & Chinchi" 
                                     item5="Buses, Vans & Trucks" item6="Spare Parts" item7="Car Assecories"
                                 />
     
-                                <NavList heading="Vehicle" item1="Tractors and Trailer" item2="Boats" item3="Other Vehicles" item4="Rikshaw & Chinchi" 
+                                <NavList heading="Bikes" item1="Tractors and Trailer" item2="Boats" item3="Other Vehicles" item4="Rikshaw & Chinchi" 
                                     item5="Buses, Vans & Trucks" item6="Spare Parts" item7="Car Assecories"
                                 />
                             </div>
