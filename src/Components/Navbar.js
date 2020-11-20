@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import '../Styles/Navbar.css';
+import NavList from './NavList';
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
@@ -22,161 +23,53 @@ class Navbar extends Component{
                         </a>
                         <div className="dropdown-menu menu-large" aria-labelledby="navbarDropdown">
                             <div className="row">
-                                <div className="col-lg-3 col-md-6 mb-3">
-                                    <h5>Vehicles</h5>
-                                    <ul className="">
-                                        <li className=""><a href="">Tractors and Trailer</a></li>
-                                        <li className=""><a href="">Boats</a></li>
-                                        <li className=""><a href="">Other Vehicles</a></li>
-                                        <li className=""><a href="">Rikshaw & Chinchi</a></li>
-                                        <li className=""><a href="">Buses, Vans & Trucks</a></li>
-                                        <li className=""><a href="">Spare Parts</a></li>
-                                        <li className=""><a href="">Car Assecories</a></li>
-                                    </ul>
-                                </div>
+                                <NavList heading="Vehicle" item1="Tractors and Trailer" item2="Boats" item3="Other Vehicles" item4="Rikshaw & Chinchi" 
+                                    item5="Buses, Vans & Trucks" item6="Spare Parts" item7="Car Assecories"
+                                />
     
-                                <div className="col-lg-3 col-md-6 mb-3">
-                                    <h5>Animals</h5>
-                                    <ul className="">
-                                        <li className=""><a href="">Tractors and Trailer</a></li>
-                                        <li className=""><a href="">Boats</a></li>
-                                        <li className=""><a href="">Other Vehicles</a></li>
-                                        <li className=""><a href="">Rikshaw & Chinchi</a></li>
-                                        <li className=""><a href="">Buses, Vans & Trucks</a></li>
-                                        <li className=""><a href="">Spare Parts</a></li>
-                                        <li className=""><a href="">Car Assecories</a></li>
-                                    </ul>
-                                </div>
+                                <NavList heading="Vehicle" item1="Tractors and Trailer" item2="Boats" item3="Other Vehicles" item4="Rikshaw & Chinchi" 
+                                    item5="Buses, Vans & Trucks" item6="Spare Parts" item7="Car Assecories"
+                                />
     
-                                <div className="col-lg-3 col-md-6 mb-3">
-                                    <h5>Fashion & Beauty</h5>
-                                    <ul className="">
-                                        <li className=""><a href="">Tractors and Trailer</a></li>
-                                        <li className=""><a href="">Boats</a></li>
-                                        <li className=""><a href="">Other Vehicles</a></li>
-                                        <li className=""><a href="">Rikshaw & Chinchi</a></li>
-                                        <li className=""><a href="">Buses, Vans & Trucks</a></li>
-                                        <li className=""><a href="">Spare Parts</a></li>
-                                        <li className=""><a href="">Car Assecories</a></li>
-                                    </ul>
-                                </div>
+                                <NavList heading="Vehicle" item1="Tractors and Trailer" item2="Boats" item3="Other Vehicles" item4="Rikshaw & Chinchi" 
+                                    item5="Buses, Vans & Trucks" item6="Spare Parts" item7="Car Assecories"
+                                />
     
-                                <div className="col-lg-3 col-md-6 mb-3">
-                                    <h5>Services</h5>
-                                    <ul className="">
-                                        <li className=""><a href="">Tractors and Trailer</a></li>
-                                        <li className=""><a href="">Boats</a></li>
-                                        <li className=""><a href="">Other Vehicles</a></li>
-                                        <li className=""><a href="">Rikshaw & Chinchi</a></li>
-                                        <li className=""><a href="">Buses, Vans & Trucks</a></li>
-                                        <li className=""><a href="">Spare Parts</a></li>
-                                        <li className=""><a href="">Car Assecories</a></li>
-                                    </ul>
-                                </div>
+                                <NavList heading="Vehicle" item1="Tractors and Trailer" item2="Boats" item3="Other Vehicles" item4="Rikshaw & Chinchi" 
+                                    item5="Buses, Vans & Trucks" item6="Spare Parts" item7="Car Assecories"
+                                />
     
-                                <div className="col-lg-3 col-md-6 mb-3">
-                                    <h5>Mobiles</h5>
-                                    <ul className="">
-                                        <li className=""><a href="">Tractors and Trailer</a></li>
-                                        <li className=""><a href="">Boats</a></li>
-                                        <li className=""><a href="">Other Vehicles</a></li>
-                                        <li className=""><a href="">Rikshaw & Chinchi</a></li>
-                                        <li className=""><a href="">Buses, Vans & Trucks</a></li>
-                                        <li className=""><a href="">Spare Parts</a></li>
-                                        <li className=""><a href="">Car Assecories</a></li>
-                                    </ul>
-                                </div>
+                                <NavList heading="Vehicle" item1="Tractors and Trailer" item2="Boats" item3="Other Vehicles" item4="Rikshaw & Chinchi" 
+                                    item5="Buses, Vans & Trucks" item6="Spare Parts" item7="Car Assecories"
+                                />
+       
+                                <NavList heading="Vehicle" item1="Tractors and Trailer" item2="Boats" item3="Other Vehicles" item4="Rikshaw & Chinchi" 
+                                    item5="Buses, Vans & Trucks" item6="Spare Parts" item7="Car Assecories"
+                                />
+        
+                                <NavList heading="Vehicle" item1="Tractors and Trailer" item2="Boats" item3="Other Vehicles" item4="Rikshaw & Chinchi" 
+                                    item5="Buses, Vans & Trucks" item6="Spare Parts" item7="Car Assecories"
+                                />
+
+                                <NavList heading="Vehicle" item1="Tractors and Trailer" item2="Boats" item3="Other Vehicles" item4="Rikshaw & Chinchi" 
+                                    item5="Buses, Vans & Trucks" item6="Spare Parts" item7="Car Assecories"
+                                />
+      
+                                <NavList heading="Vehicle" item1="Tractors and Trailer" item2="Boats" item3="Other Vehicles" item4="Rikshaw & Chinchi" 
+                                    item5="Buses, Vans & Trucks" item6="Spare Parts" item7="Car Assecories"
+                                />
+       
+                                <NavList heading="Vehicle" item1="Tractors and Trailer" item2="Boats" item3="Other Vehicles" item4="Rikshaw & Chinchi" 
+                                    item5="Buses, Vans & Trucks" item6="Spare Parts" item7="Car Assecories"
+                                />
+        
+                                <NavList heading="Vehicle" item1="Tractors and Trailer" item2="Boats" item3="Other Vehicles" item4="Rikshaw & Chinchi" 
+                                    item5="Buses, Vans & Trucks" item6="Spare Parts" item7="Car Assecories"
+                                />
     
-                                <div className="col-lg-3 col-md-6 mb-3">
-                                    <h5>Furniture & Home Decor</h5>
-                                    <ul className="">
-                                        <li className=""><a href="">Tractors and Trailer</a></li>
-                                        <li className=""><a href="">Boats</a></li>
-                                        <li className=""><a href="">Other Vehicles</a></li>
-                                        <li className=""><a href="">Rikshaw & Chinchi</a></li>
-                                        <li className=""><a href="">Buses, Vans & Trucks</a></li>
-                                        <li className=""><a href="">Spare Parts</a></li>
-                                        <li className=""><a href="">Car Assecories</a></li>
-                                    </ul>
-                                </div>
-    
-                                <div className="col-lg-3 col-md-6 mb-3">
-                                    <h5>Property for Rent</h5>
-                                    <ul className="">
-                                        <li className=""><a href="">Tractors and Trailer</a></li>
-                                        <li className=""><a href="">Boats</a></li>
-                                        <li className=""><a href="">Other Vehicles</a></li>
-                                        <li className=""><a href="">Rikshaw & Chinchi</a></li>
-                                        <li className=""><a href="">Buses, Vans & Trucks</a></li>
-                                        <li className=""><a href="">Spare Parts</a></li>
-                                        <li className=""><a href="">Car Assecories</a></li>
-                                    </ul>
-                                </div>
-    
-                                <div className="col-lg-3 col-md-6 mb-3">
-                                    <h5>Books, Sports & Hobbies</h5>
-                                    <ul className="">
-                                        <li className=""><a href="">Tractors and Trailer</a></li>
-                                        <li className=""><a href="">Boats</a></li>
-                                        <li className=""><a href="">Other Vehicles</a></li>
-                                        <li className=""><a href="">Rikshaw & Chinchi</a></li>
-                                        <li className=""><a href="">Buses, Vans & Trucks</a></li>
-                                        <li className=""><a href="">Spare Parts</a></li>
-                                        <li className=""><a href="">Car Assecories</a></li>
-                                    </ul>
-                                </div>
-    
-                                <div className="col-lg-3 col-md-6 mb-3">
-                                    <h5>Business, Industrial & Agriculture</h5>
-                                    <ul className="">
-                                        <li className=""><a href="">Tractors and Trailer</a></li>
-                                        <li className=""><a href="">Boats</a></li>
-                                        <li className=""><a href="">Other Vehicles</a></li>
-                                        <li className=""><a href="">Rikshaw & Chinchi</a></li>
-                                        <li className=""><a href="">Buses, Vans & Trucks</a></li>
-                                        <li className=""><a href="">Spare Parts</a></li>
-                                        <li className=""><a href="">Car Assecories</a></li>
-                                    </ul>
-                                </div>
-    
-                                <div className="col-lg-3 col-md-6 mb-3">
-                                    <h5>Jobs</h5>
-                                    <ul className="">
-                                        <li className=""><a href="">Tractors and Trailer</a></li>
-                                        <li className=""><a href="">Boats</a></li>
-                                        <li className=""><a href="">Other Vehicles</a></li>
-                                        <li className=""><a href="">Rikshaw & Chinchi</a></li>
-                                        <li className=""><a href="">Buses, Vans & Trucks</a></li>
-                                        <li className=""><a href="">Spare Parts</a></li>
-                                        <li className=""><a href="">Car Assecories</a></li>
-                                    </ul>
-                                </div>
-    
-                                <div className="col-lg-3 col-md-6 mb-3">
-                                    <h5>Kids</h5>
-                                    <ul className="">
-                                        <li className=""><a href="">Tractors and Trailer</a></li>
-                                        <li className=""><a href="">Boats</a></li>
-                                        <li className=""><a href="">Other Vehicles</a></li>
-                                        <li className=""><a href="">Rikshaw & Chinchi</a></li>
-                                        <li className=""><a href="">Buses, Vans & Trucks</a></li>
-                                        <li className=""><a href="">Spare Parts</a></li>
-                                        <li className=""><a href="">Car Assecories</a></li>
-                                    </ul>
-                                </div>
-    
-                                <div className="col-lg-3 col-md-6 mb-3">
-                                    <h5>Bikes</h5>
-                                    <ul className="">
-                                        <li className=""><a href="">Tractors and Trailer</a></li>
-                                        <li className=""><a href="">Boats</a></li>
-                                        <li className=""><a href="">Other Vehicles</a></li>
-                                        <li className=""><a href="">Rikshaw & Chinchi</a></li>
-                                        <li className=""><a href="">Buses, Vans & Trucks</a></li>
-                                        <li className=""><a href="">Spare Parts</a></li>
-                                        <li className=""><a href="">Car Assecories</a></li>
-                                    </ul>
-                                </div>
+                                <NavList heading="Vehicle" item1="Tractors and Trailer" item2="Boats" item3="Other Vehicles" item4="Rikshaw & Chinchi" 
+                                    item5="Buses, Vans & Trucks" item6="Spare Parts" item7="Car Assecories"
+                                />
                             </div>
                         </div>
                     </li>
