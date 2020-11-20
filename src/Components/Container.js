@@ -28,7 +28,7 @@ var cardlist=[
     {
         id:"3",
         name:"Cooling Pad",
-        disc:"Cooling pad laptop with double fan...",
+        disc:"Cooling pad with double fan...",
         date:"JUN 18",
         img:img7
     },
@@ -54,16 +54,16 @@ const cardListReturn=cardlist.map((cards, i) => {
 class Container extends Component{
     render(){
         return(
-            <div class="container container-5">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="title">
+            <div className="container container-5">
+                <div className="row">
+                    <div className="col-12">
+                        <div className="title">
                             <h4>{this.props.title}</h4>
                         </div>
                     </div>
                 </div>
 
-                <div class="row my-3">
+                <div className="row my-3">
                   {cardListReturn}
                 </div>
             </div>
