@@ -9,25 +9,21 @@ class Display2 extends Component{
     render(){
         return(
             <div>
-                <div class="container container-7">
-                    <div class="row text-center">
-                        <div class="col-12">
-                            <a href="">Load more</a>
+                <div className="container container-7">
+                    <div className="row text-center">
+                        <div className="col-12">
+                            <a href="#">Load more</a>
                         </div>
                     </div>
 
-                    <div class="row my-5 text-center">
-                        <div class="col-12">
-                            <img src={img9} alt="" />
-                        </div>
+                    <div className="row my-5 text-center">
+                        <img src={img9} alt="" />
                     </div>
                 </div>
 
-                <div class="container-fluid container-8">
-                    <div class="row ">
-                        <div class="col-12">
-                            <img src={img10} alt="" />
-                        </div>
+                <div className="container-fluid container-8">
+                    <div className="row ">
+                        <img src={img10} alt="" />
                     </div>
                 </div>
             </div>
