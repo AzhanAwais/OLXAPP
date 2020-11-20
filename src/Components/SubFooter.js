@@ -6,6 +6,7 @@ import FacebookIcon from '@material-ui/icons/Facebook';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import PlayArrowIcon from '@material-ui/icons/PlayArrow';
+import SubFooterLink from './SubFooterLink';
 
 class SubFooter extends Component{
     render(){
@@ -13,45 +14,10 @@ class SubFooter extends Component{
             <div className="container-fluid container-9">
                 <div className="container pt-4">
                     <div className="row">
-                        <div className="col-md-3 mb-3">
-                            <h5>POPULAR CATEGORIES</h5>
-                            <ul>
-                                <li>Cars</li>
-                                <li>Flats for rent</li>
-                                <li>Jobs</li>
-                                <li>Mobile Phones</li>
-                            </ul>
-                        </div>
-        
-                        <div className="col-md-3 mb-3">
-                            <h5>TRENDING SEARCHES</h5>
-                            <ul>
-                                <li>Bikes</li>
-                                <li>Watches for rent</li>
-                                <li>Books</li>
-                                <li>Dogs</li>
-                            </ul>
-                        </div>
-        
-                        <div className="col-md-2 mb-3">
-                            <h5>ABOUT US</h5>
-                            <ul>
-                                <li>About OLX Group</li>
-                                <li>OLX Blog</li>
-                                <li>Contact Us</li>
-                                <li>OLX for Businesses</li>
-                            </ul>
-                        </div>
-        
-                        <div className="col-md-2 mb-3">
-                            <h5>OLX</h5>
-                            <ul>
-                                <li>Help</li>
-                                <li>Sitemap</li>
-                                <li>Legal & Privacy Information</li>
-                            </ul>
-                        </div>
-        
+                        <SubFooterLink heading="POPULAR CATEGORIES" item1="Cars" item2="Flats for rent" item3="Jobs" item4="Mobile Phones" />
+                        <SubFooterLink heading="TRENDING SEARCHES" item1="Bikes" item2="Watches for rent" item3="Books" item4="Dogs" />
+                        <SubFooterLink heading="ABOUT US" item1="About OLX Group" item2="OLX Blog" item3="Contact Us" item4="OLX for Businesses" />
+
                         <div className="col-md-2 mb-3">
                             <h5>FOLLOW US</h5>
                             <span>
