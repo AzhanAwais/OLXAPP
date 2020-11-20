@@ -10,10 +10,10 @@ import PlayArrowIcon from '@material-ui/icons/PlayArrow';
 class SubFooter extends Component{
     render(){
         return(
-            <div class="container-fluid container-9">
-                <div class="container pt-4">
-                    <div class="row">
-                        <div class="col-md-3 mb-3">
+            <div className="container-fluid container-9">
+                <div className="container pt-4">
+                    <div className="row">
+                        <div className="col-md-3 mb-3">
                             <h5>POPULAR CATEGORIES</h5>
                             <ul>
                                 <li>Cars</li>
@@ -23,7 +23,7 @@ class SubFooter extends Component{
                             </ul>
                         </div>
         
-                        <div class="col-md-3 mb-3">
+                        <div className="col-md-3 mb-3">
                             <h5>TRENDING SEARCHES</h5>
                             <ul>
                                 <li>Bikes</li>
@@ -33,7 +33,7 @@ class SubFooter extends Component{
                             </ul>
                         </div>
         
-                        <div class="col-md-2 mb-3">
+                        <div className="col-md-2 mb-3">
                             <h5>ABOUT US</h5>
                             <ul>
                                 <li>About OLX Group</li>
@@ -43,7 +43,7 @@ class SubFooter extends Component{
                             </ul>
                         </div>
         
-                        <div class="col-md-2 mb-3">
+                        <div className="col-md-2 mb-3">
                             <h5>OLX</h5>
                             <ul>
                                 <li>Help</li>
@@ -52,7 +52,7 @@ class SubFooter extends Component{
                             </ul>
                         </div>
         
-                        <div class="col-md-2 mb-3">
+                        <div className="col-md-2 mb-3">
                             <h5>FOLLOW US</h5>
                             <span>
                                 <a href=""><FacebookIcon className="icons" /></a>
