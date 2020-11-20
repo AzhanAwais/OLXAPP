@@ -9,19 +9,15 @@ class Display extends Component{
     render(){
         return(
             <div>
-                <div class="container-fluid container-3">
-                    <div class="row">
-                        <div class="col-12">
-                            <img src={img11} alt="" />
-                        </div>
+                <div className="container-fluid container-3">
+                    <div className="row">
+                        <img src={img11} className="img-responsive" alt="" />
                     </div>
                 </div>
 
-                <div class="container container-4">
-                    <div class="row text-center">
-                        <div class="col-12">
-                            <img src={img4} alt="" />
-                        </div>
+                <div className="container container-4">
+                    <div className="row text-center">
+                        <img src={img4} className="img-responsive" alt="" />
                     </div>
                 </div>
             </div>
