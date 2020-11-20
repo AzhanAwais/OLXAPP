@@ -63,16 +63,16 @@ const cardListReturn=cardlist.map((cards, i) => {
 class Container2 extends Component{
     render(){
         return(
-            <div class="container container-6">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="title">
+            <div className="container container-6">
+                <div className="row">
+                    <div className="col-12">
+                        <div className="title">
                             <h4>{this.props.title}</h4>
                         </div>
                     </div>
                 </div>
 
-                <div class="row my-3">
+                <div className="row my-3">
                   {cardListReturn}
                   {cardListReturn}
                 </div>
